@@ -1,13 +1,6 @@
 "use client";
 import React from "react";
-import {
-  Box,
-  Button,
-  Flex,
-  HStack,
-  Image,
-  Input,
-} from "@chakra-ui/react";
+import { Box, Button, Flex, HStack, Image, Input } from "@chakra-ui/react";
 import { MoonIcon, SearchIcon } from "@chakra-ui/icons";
 
 export default function Header() {

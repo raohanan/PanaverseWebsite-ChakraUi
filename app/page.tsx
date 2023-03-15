@@ -1,8 +1,9 @@
 "use client";
 
-import FirstContainer from "@/components/first-container/FirstContainer";
-import Header from "@/components/header/Header";
-import SecondContainer from "@/components/second-container/SecondContainer";
+import FirstContainer from "@/components/FirstContainer";
+import Header from "@/components/Header";
+import SecondContainer from "@/components/SecondContainer";
+import ThirdContainer from "@/components/ThirdContainer";
 import { Box } from "@chakra-ui/react";
 
 export default function Home() {
@@ -10,8 +11,9 @@ export default function Home() {
     <>
       <Header />
       <Box as="main">
-      <FirstContainer />
-      <SecondContainer />
+        <FirstContainer />
+        <SecondContainer />
+        <ThirdContainer />
       </Box>
     </>
   );
