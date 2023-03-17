@@ -7,6 +7,7 @@ import SecondContainer from "@/components/SecondContainer";
 import ThirdContainer from "@/components/ThirdContainer";
 import { Box } from "@chakra-ui/react";
 
+
 export default function Home() {
   return (
     <>
