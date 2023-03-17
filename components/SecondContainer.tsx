@@ -3,12 +3,12 @@ import React from "react";
 
 export default function SecondContainer() {
   return (
-    <Box>
+    <Box bg={"#fff"}>
       <HStack px={"50px"}>
         <Image px={"10"} w={"50%"} h="auto" src="/Images/googleSite2.png" />
         <Box>
-          <Text mx={"10"}>GROW YOUR SKILLS</Text>
-          <Text m={"10"} fontSize={"44px"} fontWeight="300">
+          <Text textColor={"red.600"} mx={"10"}>GROW YOUR SKILLS</Text>
+          <Text m={"10"} fontSize={"40px"} fontWeight="400">
             Learn how to use Metaverse tools to their full potential
           </Text>
           <Text mx={"10"} fontSize={"18px"}>

@@ -1,17 +1,25 @@
 "use client";
 import React from "react";
+import Link from "next/link";
 import { Box, Button, Flex, HStack, Image, Input } from "@chakra-ui/react";
 import { MoonIcon, SearchIcon } from "@chakra-ui/icons";
 
 export default function Header() {
   return (
-    <Box boxShadow="md" bg="white">
+    <Box
+      as="header"
+      boxShadow="md"
+      bg="white"
+      position={"sticky"}
+      top="0"
+      zIndex={1}
+    >
       <Flex alignItems="Center" mx={10}>
         <Image src="/Images/logo.png" my={5} height="12" width="28"></Image>
         <HStack spacing={10} fontFamily={"heading"} mx={6} px="6">
-          <Box>Home</Box>
-          <Box>About</Box>
-          <Box>Contact</Box>
+          <Link href={"/"}>Home</Link>
+          <Link href={"/about"}>About</Link>
+          <Link href={"/contact"}>Contact</Link>
         </HStack>
         <Input
           placeholder="Search"
@@ -30,17 +38,19 @@ export default function Header() {
           {" "}
           <MoonIcon />{" "}
         </Button>
-        <Button
-          textColor="white"
-          bg="red.600"
-          borderRadius="4"
-          variant={"solid"}
-          ml={10}
-          py={6}
-          px={8}
-        >
-          Go to PIAIC
-        </Button>
+        <Link href="http://piaic.org/" target={"_blank"}>
+          <Button
+            textColor="white"
+            bg="red.600"
+            borderRadius="2"
+            variant={"outline"}
+            ml={10}
+            py={6}
+            px={4}
+          >
+            Go to PIAIC
+          </Button>
+        </Link>
       </Flex>
     </Box>
   );

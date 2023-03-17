@@ -1,6 +1,7 @@
 "use client";
 
 import FirstContainer from "@/components/FirstContainer";
+import Footer from "@/components/Footer";
 import Header from "@/components/Header";
 import SecondContainer from "@/components/SecondContainer";
 import ThirdContainer from "@/components/ThirdContainer";
@@ -14,6 +15,7 @@ export default function Home() {
         <FirstContainer />
         <SecondContainer />
         <ThirdContainer />
+        <Footer />
       </Box>
     </>
   );

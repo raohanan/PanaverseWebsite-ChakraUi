@@ -7,7 +7,7 @@ export default function FirstContainer() {
       <HStack px={"50px"} pt="1">
         <Box pl={"10"} w={"50%"}>
           {/* Left */}
-          <Text fontSize={"44px"} fontWeight="300">
+          <Text fontSize={"44px"} fontWeight="400">
             Take your Virtual Field Trips into the Metaverse with Panaverse DAO
           </Text>
           <Text fontSize={"18px"} my={"4"}>
@@ -22,7 +22,7 @@ export default function FirstContainer() {
             textColor="white"
             bg="red.600"
             borderRadius="4"
-            variant={"solid"}
+            variant={"outline"}
           >
             Get Started
           </Button>
