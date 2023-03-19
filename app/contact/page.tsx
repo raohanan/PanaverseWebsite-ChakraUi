@@ -1,6 +1,6 @@
 "use client";
 import Footer from "@/components/Footer";
-import Header from "@/components/Header";
+import Header from "@/components/Header/Header";
 import { Box, Button, Center, Heading, Image } from "@chakra-ui/react";
 import Link from "next/link";
 import React from "react";
@@ -11,20 +11,25 @@ export default function page() {
       <Header />
       <Box>
         <Heading
-
           textAlign={"center"}
-          mx={"auto"}
-          fontSize={"58px"}
+          mx={{ base: "8", md: "12", lg: "20" }}
+          fontSize={{ base: "32px", md: "44px", lg: "58px" }}
           textColor={"red.600"}
           mt={"32"}
           fontStyle={"inherit"}
         >
           Contact Us through
         </Heading>
-        <Heading mt={"10"} textAlign={"center"}>
-          Presidential Initiative for Artificial Intelligence & Computing
-          (PIAIC)
-        </Heading>
+        <Box mx={{ base: "8", md: "12", lg: "20" }}>
+          <Heading
+            fontSize={{ base: "20px", md: "32px", lg: "44px" }}
+            mt={"10"}
+            textAlign={"center"}
+          >
+            Presidential Initiative for Artificial Intelligence & Computing
+            (PIAIC)
+          </Heading>
+        </Box>
         <Image mt={"20"} mx={"auto"} src="Images/piaic.svg" height="96"></Image>
         <Center>
           <Link href="http://piaic.org/" target={"_blank"}>

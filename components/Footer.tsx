@@ -4,7 +4,9 @@ import {
   Container,
   Flex,
   Heading,
+  Hide,
   HStack,
+  Show,
   Text,
 } from "@chakra-ui/react";
 import React from "react";
@@ -12,16 +14,19 @@ import React from "react";
 export default function Footer() {
   return (
     <Container maxW={"100%"} bg={"red.100"}>
-      <HStack py={"6"}>
-        <Heading pl={"16"} color={"grey"}>
-          Panaverse
-        </Heading>
-        <HStack color={"grey"} px={"10"}>
-          <Text pr={"6"}>About Panaverse</Text>
-          <Text pr={"6"}>Help</Text>
-          <Text pr={"6"}>Privacy and Terms</Text>
-          <Text pr={"36"}>© 2023 all rights reserved to Panaverse</Text>
-          <Text>Made By: Abdul Hanan</Text>
+      <HStack spacing={10} py={"6"}>
+        <Heading color={"grey"}>Panaverse</Heading>
+        <HStack spacing={10} color={"grey"}>
+          <Hide below="md">
+            <Text>About Panaverse</Text>
+            <Text>Help</Text>
+
+            <Text>Privacy and Terms</Text>
+          </Hide>
+          <Text>© 2023 all rights reserved to Panaverse</Text>
+          <Show above="md">
+            <Text>Made By: Abdul Hanan</Text>
+          </Show>
         </HStack>
       </HStack>
     </Container>
