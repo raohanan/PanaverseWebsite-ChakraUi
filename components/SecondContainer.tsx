@@ -9,7 +9,7 @@ export default function SecondContainer() {
           <Image px={"10"} w={"50%"} h="auto" src="/Images/googleSite2.png" />
         </Hide>
         <Box>
-          <Text my={{base:"5"}} textColor={"red.600"} mx={{base:"0",md:"0",lg:"10"}}>
+          <Text my={{base:"5"}} textColor={"red.600"} mx={{base:"0",md:"0",lg:"0"}}>
             GROW YOUR SKILLS
           </Text>
           <Text my={{base:"5"}} fontSize={{ base: '24px', md: '32px', lg: '40px' }} fontWeight="400">
