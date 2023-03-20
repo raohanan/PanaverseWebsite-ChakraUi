@@ -6,7 +6,7 @@ export default function SecondContainer() {
     <Box bg={"#fff"} mx={{base:"8",md:"12",lg:"20"}}>
       <HStack>
         <Hide below="lg">
-          <Image px={"10"} w={"50%"} h="auto" src="/Images/googleSite2.png" />
+          <Image px={"10"} w={"50%"} h="auto" src="/Images/googleSite2.png" alt=""/>
         </Hide>
         <Box>
           <Text my={{base:"5"}} textColor={"red.600"} mx={{base:"0",md:"0",lg:"0"}}>

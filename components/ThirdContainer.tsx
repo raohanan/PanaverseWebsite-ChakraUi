@@ -28,7 +28,7 @@ export default function ThirdContainer() {
         >
           <Card h={"80"}>
             <CardHeader>
-              <Image h={"12"} w={"18"} src="/Images/logo-Meta.png" />
+              <Image h={"12"} w={"18"} src="/Images/logo-Meta.png" alt=""/>
             </CardHeader>
             <CardBody>
               <Text fontWeight="600" mt={"-2"} mb={"9"} fontSize={"20px"}>
@@ -45,7 +45,7 @@ export default function ThirdContainer() {
           </Card>
           <Card h={"80"}>
             <CardHeader>
-              <Image h={"16"} w={"16"} src="/Images/generative-AI.png" />
+              <Image h={"16"} w={"16"} src="/Images/generative-AI.png" alt=""/>
             </CardHeader>
             <CardBody>
               <Text fontWeight="600" mt={"-6"} mb={"9"} fontSize={"20px"}>
@@ -66,6 +66,7 @@ export default function ThirdContainer() {
                 h={"16"}
                 w={"16"}
                 src="/Images/genomics-biotechnology.png"
+                alt=""
               />
             </CardHeader>
             <CardBody>
@@ -83,7 +84,7 @@ export default function ThirdContainer() {
           </Card>
           <Card h={"80"}>
             <CardHeader>
-              <Image h={"16"} w={"20"} src="/Images/npi-logo.png" />
+              <Image h={"16"} w={"20"} src="/Images/npi-logo.png" alt=""/>
             </CardHeader>
             <CardBody>
               <Text fontWeight="600" mt={"-6"} mb={"9"} fontSize={"20px"}>
@@ -101,7 +102,7 @@ export default function ThirdContainer() {
           </Card>
           <Card h={"80"}>
             <CardHeader>
-              <Image h={"16"} w={"16"} src="/Images/Blockchain_Logo.png" />
+              <Image h={"16"} w={"16"} src="/Images/Blockchain_Logo.png" alt=""/>
             </CardHeader>
             <CardBody>
               <Text fontWeight="600" mt={"-6"} mb={"9"} fontSize={"20px"}>
@@ -119,7 +120,7 @@ export default function ThirdContainer() {
           </Card>
           <Card h={"80"}>
             <CardHeader>
-              <Image h={"16"} w={"16"} src="/Images/cloud-computing.png" />
+              <Image h={"16"} w={"16"} src="/Images/cloud-computing.png" alt=""/>
             </CardHeader>
             <CardBody>
               <Text fontWeight="600" mt={"-6"} mb={"9"} fontSize={"20px"}>
@@ -137,7 +138,7 @@ export default function ThirdContainer() {
           </Card>
           <Card h={"80"}>
             <CardHeader>
-              <Image h={"16"} w={"16"} src="/Images/web3-icon.png" />
+              <Image h={"16"} w={"16"} src="/Images/web3-icon.png" alt=""/>
             </CardHeader>
             <CardBody>
               <Text fontWeight="600" mt={"-6"} mb={"9"} fontSize={"20px"}>
@@ -160,7 +161,7 @@ export default function ThirdContainer() {
           </Card>
           <Card h={"80"}>
             <CardHeader>
-              <Image h={"16"} w={"16"} src="/Images/iot.png" />
+              <Image h={"16"} w={"16"} src="/Images/iot.png" alt=""/>
             </CardHeader>
             <CardBody>
               <Text fontWeight="600" mt={"-6"} mb={"9"} fontSize={"20px"}>
@@ -181,6 +182,7 @@ export default function ThirdContainer() {
                 h={"16"}
                 w={"16"}
                 src="/Images/artificial-intelligence.png"
+                alt=""
               />
             </CardHeader>
             <CardBody>

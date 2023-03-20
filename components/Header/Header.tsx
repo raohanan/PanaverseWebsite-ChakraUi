@@ -33,6 +33,7 @@ export default function Header() {
         my={5}
         mx={{ base: "5", md: "8", lg: "16" }}
         src="/Images/logo.png"
+        alt=""
         height="12"
         width="28"
       />

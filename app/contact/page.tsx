@@ -30,7 +30,7 @@ export default function page() {
             (PIAIC)
           </Heading>
         </Box>
-        <Image mt={"20"} mx={"auto"} src="Images/piaic.svg" height="96"></Image>
+        <Image mt={"20"} mx={"auto"} src="Images/piaic.svg" alt="" height="96"></Image>
         <Center>
           <Link href="http://piaic.org/" target={"_blank"}>
             <Button

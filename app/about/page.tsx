@@ -25,6 +25,7 @@ export default function page() {
             mt={"20"}
             mx={"auto"}
             src="Images/logo.png"
+            alt=""
             height="36"
             width="1xl"
           ></Image>
@@ -48,7 +49,7 @@ export default function page() {
           Join a 13 Trillion Dollar Industry with 5 Billion Users
         </Text>
         <Box mx={{ base: "8", md: "12", lg: "20" }}>
-          <Image mt={"10"} mx={"auto"} src="Images/metaverse-img.png"></Image>
+          <Image mt={"10"} mx={"auto"} src="Images/metaverse-img.png" alt=""></Image>
         </Box>
         <Text
           mx={{ base: "8", md: "12", lg: "20" }}
@@ -65,7 +66,7 @@ export default function page() {
       >
         <Card h={"80"}>
           <CardHeader>
-            <Image h={"20"} w={"18"} src="/Images/sir.png" />
+            <Image h={"20"} w={"18"} src="/Images/sir.png" alt=""/>
           </CardHeader>
           <CardBody>
             <Text mt={"-2"} mb={"9"} fontSize={"20px"}>
@@ -87,7 +88,7 @@ export default function page() {
         </Card>
         <Card h={"80"}>
           <CardHeader>
-            <Image h={"20"} w={"18"} src="/Images/sir.png" />
+            <Image h={"20"} w={"18"} src="/Images/sir.png" alt=""/>
           </CardHeader>
           <CardBody>
             <Text mt={"-2"} mb={"9"} fontSize={"20px"}>
@@ -104,7 +105,7 @@ export default function page() {
         </Card>
         <Card h={"80"}>
           <CardHeader>
-            <Image h={"20"} w={"18"} src="/Images/MamHira.png" />
+            <Image h={"20"} w={"18"} src="/Images/MamHira.png" alt=""/>
           </CardHeader>
           <CardBody>
             <Text mt={"-2"} mb={"9"} fontSize={"20px"}>
@@ -118,7 +119,7 @@ export default function page() {
         </Card>
         <Card h={"80"}>
           <CardHeader>
-            <Image h={"20"} w={"18"} src="/Images/sir.png" />
+            <Image h={"20"} w={"18"} src="/Images/sir.png" alt=""/>
           </CardHeader>
           <CardBody>
             <Text mt={"-2"} mb={"9"} fontSize={"20px"}>
