@@ -8,7 +8,7 @@ export default function ThirdContainer() {
   return (
     <>
       <Box>
-        <Text textColor={"red.600"} ml={"20"} mt={"32"} mb={"10"}>
+        <Text textColor={"red.600"} ml={{base:"8",md:"12",lg:"20"}} mt={"32"} mb={"10"}>
           EXPLORE WHAT WE OFFER
         </Text>
         <Text

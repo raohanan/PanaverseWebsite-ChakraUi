@@ -15,6 +15,7 @@ import {
 import { RxHamburgerMenu } from "react-icons/rx";
 import { SearchIcon } from "@chakra-ui/icons";
 import { BiMicrophone } from "react-icons/bi";
+import Burger from "./Burger";
 
 
 
@@ -45,7 +46,7 @@ export default function Header() {
       <Show below="md">
         <HStack ml={{ base: "auto" }} mr={{ base: "5" }}>
           <Button>
-            <RxHamburgerMenu size={"20px"} />
+            <Burger />
           </Button>
         </HStack>
       </Show>
